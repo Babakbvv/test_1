@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>signUP2</class>
+ <widget class="QWidget" name="signUP2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>895</width>
+    <height>658</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">backgroundcolor:black
+</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>591</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLineEdit" name="lineEdit_7"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_8"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_9"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_10"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_11"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_12"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>30</y>
+     <width>151</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">
+       color: #00FFFF;
+     font-size: 12pt;
+       font-family: '%1';
+      font-weight: normal;
+     background-color: transparent;
+      border: none;</string>
+      </property>
+      <property name="text">
+       <string>user name</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="styleSheet">
+       <string notr="true">color: #00FFFF;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: &quot;Segoe UI&quot;, &quot;Arial&quot;;
+    background-color: transparent;
+    border: none;</string>
+      </property>
+      <property name="text">
+       <string>password</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="styleSheet">
+       <string notr="true">color: #00FFFF;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: &quot;Segoe UI&quot;, &quot;Arial&quot;;
+    background-color: transparent;
+    border: none;</string>
+      </property>
+      <property name="text">
+       <string>full name</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_10">
+      <property name="styleSheet">
+       <string notr="true">color: #00FFFF;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: &quot;Segoe UI&quot;, &quot;Arial&quot;;
+    background-color: transparent;
+    border: none;</string>
+      </property>
+      <property name="text">
+       <string>email</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_11">
+      <property name="styleSheet">
+       <string notr="true">color: #00FFFF;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: &quot;Segoe UI&quot;, &quot;Arial&quot;;
+    background-color: transparent;
+    border: none;</string>
+      </property>
+      <property name="text">
+       <string>age</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_12">
+      <property name="styleSheet">
+       <string notr="true">color: #00FFFF;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: &quot;Segoe UI&quot;, &quot;Arial&quot;;
+    background-color: transparent;
+    border: none;</string>
+      </property>
+      <property name="text">
+       <string>sex</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>560</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_5">
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="styleSheet">
+       <string notr="true">color: #00FFFF;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: &quot;Segoe UI&quot;, &quot;Arial&quot;;
+    background-color: transparent;
+    border: none;</string>
+      </property>
+      <property name="text">
+       <string>back</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="styleSheet">
+       <string notr="true">color: #00FFFF;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: &quot;Segoe UI&quot;, &quot;Arial&quot;;
+    background-color: transparent;
+    border: none;</string>
+      </property>
+      <property name="text">
+       <string>finish</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
